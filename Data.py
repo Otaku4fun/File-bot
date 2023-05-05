@@ -25,7 +25,7 @@ class Data:
   ├ /speedtest - To test the bot server speed
   └ /broadcast - To send a broadcast message to the bot user
   
- 👨‍💻 Developed by </b><a href='https://t.me/Campus_Bot_Updates'>Anime Campus</a>
+ 👨‍💻 Developed by </b><a href='https://t.me/Anime_French_Bot'>Anime French</a>
 """
 
     close = [
@@ -49,11 +49,11 @@ class Data:
     ABOUT = """
 <b>About this Bot:
 
- @Anime_Campus_Bot is a Telegram Bot for storing posts or files that can be accessed via a special link.
+ @Anime_French_Bot is a Telegram Bot for storing posts or files that can be accessed via a special link.
 
-  • Creator: @MH17_KUNAL
+  • Creator:@Shadow_Sanpai
   • Framework: Pyrograms
-  • Channel :@Campus_Bot_Updates
+  • Channel :@Team_French
 
- 👨‍💻 Developed by @Anime_Campus
+ 👨‍💻 Developed by @Anime_French 
 """
