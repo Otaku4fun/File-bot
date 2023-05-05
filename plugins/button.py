@@ -43,8 +43,8 @@ def start_button(client):
                 InlineKeyboardButton(text="Help", callback_data="help"),
             ],
             [
-                InlineKeyboardButton(text="Aɴɪᴍᴇ Cᴀᴍᴘᴜs", url=client.invitelink),
-                InlineKeyboardButton(text="Cᴀᴍᴘᴜs Bᴏᴛs", url=client.invitelink2),
+                InlineKeyboardButton(text="Join Channel 1", url=client.invitelink),
+                InlineKeyboardButton(text="Join Channel 2", url=client.invitelink2),
             ],
             [InlineKeyboardButton(text="🍁Cʟᴏsᴇ🍁", callback_data="close")],
         ]
@@ -55,7 +55,7 @@ def fsub_button(client, message):
     if not FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Cᴀᴍᴘᴜs Bᴏᴛs", url=client.invitelink2),
+                InlineKeyboardButton(text="Join Now", url=client.invitelink2),
             ],
         ]
         try:
@@ -73,7 +73,7 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Aɴɪᴍᴇ Cᴀᴍᴘᴜs", url=client.invitelink),
+                InlineKeyboardButton(text="Join Now", url=client.invitelink),
             ],
         ]
         try:
@@ -91,8 +91,8 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Aɴɪᴍᴇ Cᴀᴍᴘᴜs", url=client.invitelink),
-                InlineKeyboardButton(text="Cᴀᴍᴘᴜs Bᴏᴛs", url=client.invitelink2),
+                InlineKeyboardButton(text="Anime French", url=client.invitelink),
+                InlineKeyboardButton(text="Join Channel 2", url=client.invitelink2),
             ],
         ]
         try:
