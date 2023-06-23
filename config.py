@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6255166353:AAFnus1Bu6f-l_P8c6apVgDtjsacW4I7rDI")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6070394576:AAGdfV14ExvhtRR0Oc5GzrnioP9h6RqMUAM")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "20421248"))
@@ -20,13 +20,13 @@ APP_ID = int(os.environ.get("APP_ID", "20421248"))
 API_HASH = os.environ.get("API_HASH", "90da70b17365b3709b8a0346a7749ce7")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001589982321"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001922981743"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "Shadow")
 
 # Protect Content
-PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "True"))
+PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -39,8 +39,8 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://csgntwtz:o_PzyaBIMB5z_LYM76VSind6P5tfJ4FI@horton.db.elephantsql.com/csgntwtz")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001854781135"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001853050737")) 
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001569040317"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001522500243")) 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -50,7 +50,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}\n\nI can save private files on Certain Channels and other users can access them from a special link..</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5009250822").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5009250822 1320302220 2036803347 1537176737").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
