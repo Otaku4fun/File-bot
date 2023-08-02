@@ -40,7 +40,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://mickey007p:Mickey1234@clu
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001977716290"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "")) 
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001977716290")) 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
